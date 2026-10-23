@@ -7,7 +7,7 @@ public class App {
 
         if (marks < 0 || marks > 100) {
             return "Invalid";
-        } else if (marks >= 75) {
+        } else if (marks >= 85) {
             return "A";
         } else if (marks > 60) {
             return "B";
